@@ -45,6 +45,7 @@ public class ContractedEmployee extends Employee{
         ", numberOfHoursWorked=" + numberOfHoursWorked +
         ", employeeId='" + employeeId + '\'' +
         ", name='" + name + '\'' +
+        ", averageMonthlySalary=" + String.format("%.2f", averageMonthlySalary) +
         '}';
   }
 }

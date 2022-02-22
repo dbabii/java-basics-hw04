@@ -33,8 +33,9 @@ public class SalariedEmployee extends Employee {
     return "SalariedEmployee{" +
         "employeeId='" + employeeId + '\'' +
         ", name='" + name + '\'' +
+        ", averageMonthlySalary=" + averageMonthlySalary +
         ", socialSecurityNumber='" + socialSecurityNumber + '\'' +
-        ", fixedMonthlyPayment=" + fixedMonthlyPayment +
+        ", fixedMonthlyPayment=" + String.format("%.2f", fixedMonthlyPayment) +
         '}';
   }
 }
